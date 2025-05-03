@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionablyLate</title>
+</head>
+<body>
+    <!--お問合せフォーム入力ページ-->
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo" href="/php02/index.php">
+                FashionablyLate
+            </a>
+        </div>
+    </header>
+    <main>
+            <div class="register-form__content">
+                <div class="contact-form__content-title">
+                    <h2>contact</h2>
+                    <div class="contact-form__content-item">
+                        <form action="/confirm" method="post">
+                            @csrf
+                            <table>
+                                <div class="contact-form__item-name">
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                お名前
+                                                <span style="color: red;">※</span>
+                                            </p>
+                                        </th>
+                                        <td>
+                                            <input type="text" name="Last name" placeholder="例:山田">
+                                            <input type="text" name="first name" placeholder="例:太郎">
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="contact-form__item-gender">
+                                    <tr>
+                                        <th>
+                                            <p>
+                                                性別
+                                                <span style="color: red;">※</span>
+                                            </p>
+                                        </th>
+                                        <div class="contact-form__item-gender-item">
+                                            <td>
+                                                <span>
+                                                    <input type="radio" name="man">男性
+                                                </span>
+                                                <span>
+                                                    <input type="radio" name="woman">
+                                                    女性
+                                                </span>
+                                                <span>
+                                                    <input type="radio" name="others">
+                                                        その他
+                                                </span>
+                                            </td>
+                                        </div>
+                                    </tr>
+                                </div>
+                            </div>
+                            <div class="contact-form__item-email">
+                                <tr>
+                                    <th>
+                                        メールアドレス
+                                        <span style="color: red;">※</span>
+                                    </th>
+                                    <td>
+                                        <input type="email" name="email">
+                                    </td>
+                                </tr>
+                            </div>
+                            <div class="contact-form__item-tel">
+                                <tr>
+                                    <th>
+                                        <p>
+                                            電話番号
+                                            <span style="color: red;">※</span>
+                                        </p>
+                                    </th>
+                                    <td>
+                                        <input type="tel" name="tel">
+                                        <input type="tel" name="tel">
+                                        <input type="tel" name="tel">
+                                    </td>
+                                </tr>
+                            </div>
+                            <div class="contact-form__item-address">
+                                <tr>
+                                    <th>
+                                        住所
+                                        <span style="color: red;">※</span>
+                                    </th>
+                                    <td>
+                                        <input type="address" name="address">
+                                    </td>
+                                </tr>
+                            </div>
+                            <div class="contact-form__item-tel">
+                                
+                            <th>
+                                    建物名
+                                    <span style="color: red;">※</span>
+                                </th>
+                                <td>
+                                    <input type="tel" name="password">
+                                </td>
+                            </div>
+                            <div class="contact-form__item-select">
+                                <th>
+                                    お問い合わせの種類
+                                    <span style="color: red;">※</span>
+                                </th>
+                                <td>
+                                    <select name="select">
+                                        <option value="selected">選択してください</option>
+                                        <option name="delivery" value="">商品のお届けについて</option>
+                                        <option name="exchange" value="">商品の交換について</option>
+                                        <option name="trouble" value="">商品トラブル</option>
+                                        <option name="inquiry" value="">ショップへのお問合せ</option>
+                                        <option name="others" value="">その他</option>
+                                    </select>
+                                </td>
+                            </div>
+                            <div class="contact-form__item-inquiry">
+                                <th>
+                                    お問合せ内容
+                                    <span style="color: red;">※</span>
+                                </th>
+                                <td>
+                                    <textarea name="inquiry" cols="50" rows="10"></textarea>
+                                </td>
+                            </div>
+                            <div class="register-form__button">
+                                <button class="register-form__button-submit" type="submit">
+                                確認画面
+                                </button>
+                            </div>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>
