@@ -1,0 +1,19 @@
+
+.thanks__content{
+    margin: 25px;
+    background-color: #ffffff;
+}
+.thanks__content-button{
+    position: relative;
+}
+p{
+    position: absolute;
+    color:#f0f0f0;
+    font-size:100px;
+    margin: 25px;
+        width: 350px;
+        height: 200px;
+}
+span{
+    margin: 0 auto;
+}

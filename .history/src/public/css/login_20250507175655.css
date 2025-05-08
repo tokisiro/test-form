@@ -1,0 +1,9 @@
+.header{
+    background-color: white;
+    position: relative;
+}
+.header
+.header__logo{
+    position: absolute;
+    color: #B8860B;
+}

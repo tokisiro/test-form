@@ -1,0 +1,82 @@
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #996666;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: serif;
+}
+
+hr {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #D3D3D3;
+}
+
+.confirm-form {
+    height: 100vh;
+    text-align: center;
+}
+
+.confirm-form__content-title {
+    color: #996666;
+    font-family: serif;
+}
+
+.confirm-form__content-item {
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #996666;
+        border: #EEEEEE;
+}
+
+
+td {
+    display: flex;
+    margin: 10px auto;
+}
+
+input, textarea, select {
+    padding: 10px auto;
+    /*ボックスを大きくする*/
+    font-size: 16px;
+    border-radius: 3px;
+    /*ボックス角の丸み*/
+    border: 2px solid #ddd;
+    /*枠線*/
+    box-sizing: border-box;
+    /*横幅の解釈をpadding, borderまでとする*/
+    background-color: #EEEEEE;
+}
+
+span {
+    margin: 10px auto;
+}
+
+.confirm-form__button-submit {
+    color: white;
+    background-color: #996666;
+    border: 1px;
+    border-color: #996666;
+    width: 20%;
+    cursor: pointer;
+    padding: 0px auto;
+    margin: 10px auto;
+}
+
+th {
+    color: #996666;
+}

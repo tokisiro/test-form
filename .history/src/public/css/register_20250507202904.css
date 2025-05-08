@@ -1,0 +1,46 @@
+
+.header {
+    background-color: white;
+    text-align: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #B8860B;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: serif;
+}
+
+.header__button{
+    position: absolute;
+}
+
+.header__button-item{
+    position: ;
+}
+
+.register-form {
+    background-color: antiquewhite;
+    height: 100vh;
+    text-align: center;
+}
+
+.register-form__title{
+    color: #B8860B;
+    font-family: serif;
+}
+
+.register-form__content{
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}

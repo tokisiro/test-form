@@ -1,0 +1,17 @@
+body{
+    display: flex;
+        justify-content: center;
+}
+
+.thanks__content{
+    background-color: #ffffff;
+    
+}
+.thanks__content-button{
+    position: relative;
+}
+p{
+    color:#f0f0f0;
+    font-size:100px;
+}
+。th炎ks

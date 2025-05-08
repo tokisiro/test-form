@@ -1,0 +1,37 @@
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #B8860B;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: serif;
+}
+
+
+.contact-form {
+    height: 100vh;
+    text-align: center;
+}
+
+.contact-form__content-title {
+    color: #B8860B;
+    font-family: serif;
+}
+
+.contact-form__content-item {
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}

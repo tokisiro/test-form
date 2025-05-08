@@ -1,0 +1,84 @@
+/* 簡単なスタイルでモーダル表示を調整 */
+.modal {
+    display: none;
+    /* 最初は非表示 */
+    position: fixed;
+    z-index: 9999;
+    /* 最前面 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 半透明背景 */
+    justify-content: center;
+    /* 中央寄せ */
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #996666;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: serif;
+}
+
+.header__logout{
+    position: relative;
+    text-align: right;
+}
+
+.header-nav__button {
+    color: #996666;
+    background-color: whitesmoke;
+    border: 1px;
+    border-color: #996666;
+    width: 10%;
+    cursor: pointer;
+}
+
+hr {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #D3D3D3;
+}
+
+.admin-form{
+    margin
+}
+
+.admin-form__title {
+    color: #996666;
+    font-family: serif;
+}
+
+
+
+

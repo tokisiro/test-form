@@ -1,0 +1,47 @@
+
+.thanks__content {
+    position: relative;
+    height: 100vh;
+    /* 全画面高 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    /* 背景色または画像設定も可能 */
+}
+
+/* 背景に「Thank you」の文字を重ねるスタイル */
+.thanks__content::before {
+    content: "Thank you";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: ６rem;
+    color: #ccc;
+    /* 薄く見える色にして背景として */
+    font-weight: bold;
+    opacity: 0.2;
+    /* 透過させて背景感を出す */
+    pointer-events: none;
+    /* 背景のテキストに触れさせない */
+}
+
+.thanks__content-message {
+    position: relative;
+    /* 重ねて表示させるために必要 */
+    z-index: 1;
+    /* 前面に出す */
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* 適宜調整 */
+}
+
+/* HOMEボタンとメッセージを中央に配置 */
+.thanks__content-item {
+    position: relative;
+    z-index: 2;
+    /* より前面に */
+    text-align: center;
+}

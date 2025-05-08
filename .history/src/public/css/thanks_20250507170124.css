@@ -1,0 +1,49 @@
+.thanks__content {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* 必要なら背景色や背景画像に変更 */
+    overflow: hidden;
+    /* はみ出すものを隠す */
+}
+
+/* 背景に「Thank you」の大きな文字を配置 */
+.thanks__background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    /* 画面サイズに合わせて拡大縮小 */
+    color: #f0f0f0;
+    /* 薄くて背景ぽい色 */
+    font-weight: bold;
+    white-space: nowrap;
+    pointer-events: none;
+    /* 背景文字に触れない */
+    z-index: 0;
+    /* 背景として下層 */
+}
+
+/* 上に重ねるメッセージとボタンのコンテナ */
+.thanks__content-inner {
+    position: relative;
+    z-index: 1;
+    /* 前面に */
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    color: #800000;
+}
+button{
+    color: #fff;
+    background-color: #800000;
+    border: none;
+    max-width: 320px;
+        height: 64px;
+        padding: 8px 24px;
+}
